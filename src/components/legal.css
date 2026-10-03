@@ -1,0 +1,20 @@
+.legal-page { max-width: 820px; margin: 0 auto; }
+.legal-page h2 { margin-bottom: 0.25rem; }
+.legal-meta { opacity: 0.75; font-size: 0.9rem; margin: 0 0 1.5rem; }
+.legal-page section { margin: 1.75rem 0 0; padding: 0; }
+.legal-page h3 { font-size: 1.1rem; margin: 0 0 0.5rem; }
+.legal-page p, .legal-page li { line-height: 1.7; opacity: 0.9; }
+.legal-page ul { padding-left: 1.25rem; margin: 0.5rem 0; }
+.legal-page a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.legal-back {
+    background: none; border: none; color: inherit; cursor: pointer;
+    padding: 0; margin-bottom: 1rem; font: inherit; opacity: 0.8;
+}
+.legal-back:hover, .legal-back:focus-visible { opacity: 1; text-decoration: underline; }
+.legal-nav { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; padding-top: 1rem; border-top: 1px solid currentColor; border-top-color: rgba(128,128,128,.35); }
+
+.footer-link-btn {
+    background: none; border: none; color: var(--text); opacity: 0.8;
+    cursor: pointer; padding: 0; font: inherit; text-align: left;
+}
+.footer-link-btn:hover, .footer-link-btn:focus-visible { opacity: 1; text-decoration: underline; }
